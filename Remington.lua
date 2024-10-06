@@ -1,3 +1,4 @@
+while wait(0.1) do
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1169.7, 25.5, 618.5)
 wait(0.05)
 local args = {
