@@ -12,8 +12,10 @@ end)
 
 btns:Seperator()
 
-btns:Button("Get max level", function()
-DiscordLib:Notification("Notification", "Max level!", "Okay!")
+btns:Button("Get Remington", function()
+DiscordLib:Notification("Notification", "Remington is get!", "Okay!")
+wait(0.05)
+loadstring(game:HttpGet"https://raw.githubusercontent.com/Aisen11394/SLPRISONOP/refs/heads/main/Remington.lua")()
 end)
 
 local tgls = serv:Channel("Toggles")
