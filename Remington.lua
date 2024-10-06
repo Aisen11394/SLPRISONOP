@@ -1,4 +1,4 @@
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrane.new(1169.7, 25.5, 618.5) wait()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1169.7, 25.5, 618.5)
 wait(0.05)
 local args = {
     [1] = "Remington 870",
